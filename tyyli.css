@@ -1,0 +1,207 @@
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.navbartop ul {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    background-color: #b7b6fd;
+    position: relative;
+    list-style-type: none;
+}
+
+.navbartop ul li {
+    padding: 0.5rem;
+    color: blue;
+    border-left: 1px solid black;
+    padding-left: 0.5em;
+    margin-left: 0.5em;
+}
+.navbartop ul :first-child {
+    border-left: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+.navbartop ul .kulmakuva {
+    border-left: 0;
+    background-color: transparent; 
+    padding: 0;
+    position: absolute;
+    right: 0;
+}
+.navbar {
+    background-color: #b7b6fd;
+    color: blue;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.2em;
+    float: right;
+    width: 15%;
+    padding: 0.2em;
+    margin-left: 0.5em;
+    margin-top: 2em;
+    margin-right: 0.2em;
+}
+
+.navbar ul {
+    margin-left: 1em;
+    padding-left: 0.5em;
+    color: black;
+}
+
+footer {
+    background-color: #b7b6fd;
+    padding: 0.2em;
+}
+table {
+    border: 2px dotted black;
+    border-collapse: collapse;
+    padding: 2px;
+}
+table td {
+    border: 2px dotted black;
+    padding: 5px;
+}
+tr :first-child {
+    font-weight: bold;
+}
+table th {
+    font-weight: normal;
+    border: 2px dotted black;
+    padding: 5px;
+}
+
+.copyright {
+    float: right;
+}
+
+.galleria {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    justify-content: flex-start; /* onko tarpeen? */
+}
+
+.galleria div {
+    flex: content;
+    margin: 3em;
+}
+
+video {
+    width: 100% 
+}
+
+input {
+    display: block;
+    float: right;
+    width: 30%;
+    margin: 0.5em;
+}
+
+form {
+    padding: 1em;
+    padding-bottom: 5em;
+}
+
+label {
+    display: block;
+    float: left;
+    width: 30%;
+    clear: left;
+    margin: 0.5em;
+}
+
+.sukupuoli {
+    float: right;
+    clear: left;
+}
+
+.palvelut {
+    float: right;
+}
+
+@media print {
+    .navbartop , .navbar {
+        display: none;
+    }
+    body {
+        font-family: 'Times New Roman', serif;
+    }
+    img {
+        page-break-inside: avoid;
+    }
+    h1, h2, h3 {
+        page-break-after: avoid;
+        page-break-inside: avoid;
+    }
+}
+
+
+@media all and  (max-width: 600px) {
+    img {
+        max-width: 100%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar , .navbartop{
+        float: none;
+        width: 100%;
+        border: 0;
+        margin: 0;
+        padding: 0.2em;
+    }
+   
+    .navbartop ul {
+        color: black;
+        margin-left: 0.5em;
+    }
+
+    .navbartop ul li {
+        display: list-item;
+        color: black;
+        border-left: 0;
+        margin-left: 0.5em;
+        padding-left: 0.5em;
+    }
+
+    .navbartop ul :first-child {
+        border-left: 0;
+        margin-left:  0.5em;
+        padding-left: 0.5em;
+    }
+
+    .kulmakuva {
+        display: none;
+    }
+
+    .galleria div {
+        margin: 0;
+        display: inline-block;
+    }
+
+    .copyright {
+        float: right;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+}
+
+
+
+

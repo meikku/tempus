@@ -1,0 +1,7 @@
+  AuthUserFile /nashome7/mapyrhon/public_html/tempus/blandit/porttitor/hidden/users  
+  AuthGroupFile /dev/null  
+  AuthName ByPassword  
+  AuthType Basic  
+  <Limit GET>  
+  require valid-user  
+  </Limit>

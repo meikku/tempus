@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8" />
+    <base href="../../" />
+    <link href="tyyli.css" rel="StyleSheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ITKO1011-Harjoitustyö</title>
+</head>
+
+<body>
+    <nav class=navbartop>
+        <ul>
+            <li><a href="https://www.jyu.fi/">Jyväskylän yliopisto</a></li>
+            <li><a href="https://www.jyu.fi/it/">Informaatioteknologian tiedekunta</a></li>
+            <li><a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriohjelmat/tietotekniikka">Tietotekniikan
+                    oppiaine</a></li>
+            <li><a href="https://appro.mit.jyu.fi/itkp1011/">ITKP1011</a></li>
+	    <li class="kulmakuva"><img src="kuva.svg" alt="" title="3622"></li>
+        </ul>
+    </nav>
+    <!--#include virtual="../../navbar.include"-->
+    <h1>ITKP1011 Web-julkaiseminen harjoitustyö</h1>
+    <p>Integer tempor mauris at fermentum ultricies. Suspendisse luctus mauris diam, eu aliquam
+        arcu faucibus vel. Suspendisse interdum quam a efficitur bibendum. Fusce ut lectus ex. Vivamus eget leo nisl.
+        Sed finibus, urna vel faucibus convallis, lectus nulla faucibus dui, sed
+        fringilla ipsum lorem et quam. Quisque at pretium erat, quis efficitur felis. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Morbi in ultrices
+        ipsum, non viverra erat. Ut erat elit, gravida non porta vitae, faucibus ac metus. </p>
+    <p>Integer metus nibh, fermentum quis eros sit amet, pellentesque congue dui. Integer sapien odio,
+        venenatis vel scelerisque id, feugiat non tortor. Sed vel tortor et quam posuere vestibulum eget vel velit.
+        Curabitur sodales ut purus in maximus. Etiam vulputate dictum odio. Vestibulum
+        erat sem, ultricies nec blandit quis, sagittis eu lorem. Praesent consequat ultrices ligula, non gravida nunc
+        cursus ac. Sed finibus accumsan ipsum, id luctus metus finibus non. Nullam
+        congue elit purus, sagittis aliquam enim vehicula nec. Nunc eleifend, felis sit amet dignissim commodo, nulla
+        risus consequat massa, imperdiet commodo nulla velit nec eros. Nunc at purus
+        non turpis pellentesque sagittis et in enim. Etiam ut nisi dictum, posuere sapien a, tempus leo. Phasellus sed
+        ligula justo. Sed in risus quis purus tempor viverra. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit. </p> 
+	<h2>Video</h2>
+	<video controls="controls" src="video.mp4"></video>
+    <p>Phasellus lobortis enim magna, sit amet imperdiet nulla scelerisque ut. Ut gravida aliquam
+        ante non scelerisque. Aenean volutpat dolor non erat consequat sodales bibendum quis est. Duis ac venenatis
+        velit. Sed at tellus neque. Nunc nec augue quis nisi aliquam semper non ac
+        velit. Ut sed iaculis nulla, id bibendum orci. Nullam tempor ligula id sodales rutrum. Nullam in lectus pretium
+        felis dapibus efficitur. </p>
+    <p>Integer arcu urna, pulvinar id enim nec,
+        auctor facilisis nunc. Phasellus sed lorem quis leo faucibus ultrices et nec erat. Donec porttitor, tellus eu
+        scelerisque laoreet, lectus est viverra ligula, vel vulputate justo turpis
+        dapibus leo. Cras fringilla eu dui sit amet varius. Integer porta hendrerit mi nec ullamcorper. Sed dictum
+        tincidunt interdum. Sed et augue risus. Phasellus orci nunc, tincidunt aliquam
+        ante non, accumsan ullamcorper velit. </p>
+    <footer> 
+        <a href=".">ITKP1011 Harjoitustyö</a><span class=copyright>© Merja Pyrhönen</span>
+    </footer>
+</body>
+
+</html>

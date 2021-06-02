@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8" />
+    <base href="../../" />
+    <link href="tyyli.css" rel="StyleSheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ITKO1011-Harjoitustyö</title>
+</head>
+
+<body>
+    <nav class=navbartop>
+        <ul>
+            <li><a href="https://www.jyu.fi/">Jyväskylän yliopisto</a></li>
+            <li><a href="https://www.jyu.fi/it/">Informaatioteknologian tiedekunta</a></li>
+            <li><a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriohjelmat/tietotekniikka">Tietotekniikan
+                    oppiaine</a></li>
+            <li><a href="https://appro.mit.jyu.fi/itkp1011/">ITKP1011</a></li>
+	    <li class="kulmakuva"><img src="kuva.svg" alt="" title="3622"></li>
+        </ul>
+    </nav>
+    <!--#include virtual="../../navbar.include"-->
+    <h1>ITKP1011 Web-julkaiseminen harjoitustyö</h1>
+    <p>Ut a quam turpis. Nullam aliquam sed mauris quis mattis. Integer dignissim nisl a lacus
+        iaculis porttitor. Mauris sit amet sem bibendum, feugiat leo nec, mollis tortor. Suspendisse facilisis nulla sed
+        turpis tristique facilisis. Integer porta lobortis molestie. Sed malesuada
+        justo ex, ut maximus ipsum venenatis at. Nullam mollis, metus ut congue scelerisque, elit ex facilisis ex, in
+        gravida ligula tellus at eros. Ut pretium purus sed malesuada elementum.
+        Mauris mattis et magna vel pulvinar. Nulla velit mi, tincidunt id consequat quis, feugiat eget ligula.
+        Suspendisse massa sem, vehicula eu orci sed, tristique viverra tortor. Vestibulum
+        tempus justo vitae turpis hendrerit sollicitudin. Vestibulum pellentesque accumsan arcu quis accumsan.</p>
+    <div class=galleria>
+        <div class="galleriakuva">
+            <a href="kuva1.jpg"><img src="kuva1pieni.jpg" alt="vuoristo" title="vuoristo"></a>
+            <h5>kuva 1</h5>
+        </div>
+        <div class="galleriakuva">
+            <a href="kuva2.jpg"><img src="kuva2pieni.jpg" alt="punainen lenkkari ja vuoristojarvi"
+                    title="lenkkari rannalla"></a>
+            <h5>kuva 2</h5>
+        </div>
+        <div class="galleriakuva">
+            <a href="kuva3.jpg"><img src="kuva3pieni.jpg" alt="kiipeilija pilvisella vuorella" title="pilvea kohti"></a>
+            <h5>kuva 3</h5>
+        </div>
+        <div class="galleriakuva">
+            <a href="kuva4.jpg"><img src="kuva4pieni.jpg" alt="vuoristojarvi" title="vuoristojarvi"></a>
+            <h5>kuva 4</h5>
+        </div>
+        <div class="galleriakuva">
+            <a href="kuva5.jpg"><img src="kuva5pieni.jpg" alt="rinkka tyynen vuoristojarven rannalla"
+                    title="lepotauko"></a>
+            <h5>kuva 5</h5>
+        </div>
+        <div class="galleriakuva">
+            <a href="kuva6.jpg"><img src="kuva6pieni.jpg" alt="kiipeilija laskeutuu jyrkkaa rinnetta"
+                    title="rinnetta alas"></a>
+            <h5>kuva 6</h5>
+        </div>
+        <div class="galleriakuva">
+            <a href="kuva7.jpg"><img src="kuva7pieni.jpg" alt="kiipeilija vuoristossa" title="vuoristoretkella"></a>
+            <h5>kuva 7</h5>
+        </div>
+    </div>
+    <p>In consectetur ullamcorper leo sit amet molestie. Sed nec nibh iaculis, laoreet est eget, interdum ex. Etiam
+        feugiat fermentum odio, id fermentum turpis aliquam non.
+        Mauris vitae magna eu ex fringilla scelerisque. Nulla vulputate vel enim sed pharetra. Morbi egestas fermentum
+        tempor. Maecenas mollis dui vel nisi mattis suscipit. Aliquam sed egestas
+        arcu, nec suscipit massa. Mauris lorem nisl, luctus in vehicula at, rhoncus eu risus. Nullam auctor semper odio,
+        vel condimentum urna pretium id. Vivamus nisl risus, gravida ut nulla at,
+        vehicula laoreet nisi. </p>
+    <p>Duis sagittis lacinia luctus. Pellentesque commodo nunc quis tellus bibendum, eget dapibus tellus tincidunt.
+        Class aptent taciti sociosqu ad litora torquent
+        per conubia nostra, per inceptos himenaeos. Nam vel arcu pulvinar, tincidunt lorem in, maximus erat. Donec
+        maximus blandit ante, non porttitor augue volutpat ac. Etiam quis orci
+        scelerisque, pulvinar metus in, blandit nibh. Curabitur non massa iaculis, iaculis diam ut, sollicitudin sapien.
+        Nunc eget dolor venenatis, mollis elit sodales, aliquam nulla. </p>
+    <footer> 
+        <a href=".">ITKP1011 Harjoitustyö</a><span class=copyright>© Merja Pyrhönen</span>
+    </footer>
+</body>
+
+</html>

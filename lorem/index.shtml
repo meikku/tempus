@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8" />
+<base href="../" />
+<link href="tyyli.css" rel="StyleSheet" type="text/css" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ITKP1011 Web-julkaiseminen harjoitustyö</title>
+</head>
+<body>
+<nav class=navbartop>
+        <ul>
+            <li><a href="https://www.jyu.fi/">Jyväskylän yliopisto</a></li>
+            <li><a href="https://www.jyu.fi/it/">Informaatioteknologian tiedekunta</a></li>
+            <li><a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriohjelmat/tietotekniikka">Tietotekniikan
+                    oppiaine</a></li>
+            <li><a href="https://appro.mit.jyu.fi/itkp1011/">ITKP1011</a></li>
+	    <li class="kulmakuva"><img src="kuva.svg" alt="" title="3622"></li>
+        </ul>
+    </nav>
+ <!--#include virtual="../navbar.include"-->
+<h1>ITKP1011 Web-julkaiseminen harjoitustyö</h1>
+<p>Quisque et facilisis nibh. Curabitur cursus molestie tellus vel tincidunt. Ut vel ex bibendum, pretium diam nec, ultrices lectus. Quisque sit amet odio eget urna condimentum lobortis nec vitae nulla. Integer odio magna, mattis in viverra vitae, semper rutrum risus. Quisque posuere magna consequat ipsum pretium, vitae egestas lorem ultricies. Sed fermentum sapien interdum mi ullamcorper volutpat. Nunc nec varius leo. Praesent consequat arcu rutrum mattis rhoncus. Morbi vehicula vestibulum ante eget semper. Vestibulum posuere a neque eu tristique. Nunc bibendum sem erat, eu facilisis metus fringilla vitae. Suspendisse mattis massa odio, id tristique felis semper eu. Sed nulla nunc, vestibulum sed sagittis vitae, tempor sed massa. Sed fermentum mollis tortor, a volutpat nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</p>
+<p>Nulla pretium lacus non tempor elementum. Aliquam vitae lorem a turpis sodales euismod. Suspendisse dolor diam, tempor at laoreet sit amet, ultrices eu ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus dapibus venenatis vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et hendrerit nibh, in egestas dui. Sed dapibus nisl sed interdum finibus. Nunc vel dolor lorem. Etiam et erat nunc. Integer suscipit bibendum vehicula.
+</p>
+<p>Integer eget vestibulum ligula. Donec varius, lorem in tempor luctus, ligula sem pharetra erat, non sollicitudin dolor enim ut urna. Donec efficitur nunc ac dolor accumsan pharetra. Nullam at turpis congue, tincidunt lacus eget, consequat metus. Aliquam finibus eleifend elementum. Donec varius egestas velit a hendrerit. Maecenas luctus, orci et placerat sodales, sapien dui pretium purus, et ornare nisi ex id augue. Sed felis nisi, vehicula sit amet lorem eu, eleifend tincidunt augue. In rutrum dictum dictum. Fusce dignissim leo lorem, eu vestibulum magna placerat nec. Maecenas ac placerat tellus, sed faucibus tellus.</p>
+<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Duis in dui nec ante sagittis semper. Nulla sollicitudin libero eget ante interdum gravida. Integer et neque tincidunt, porta elit eget, tincidunt purus. Donec non condimentum mi. Pellentesque mi quam, tristique quis aliquam eget, tincidunt id erat. Fusce maximus nisi turpis, at pharetra neque pretium quis. In sit amet enim quis velit aliquet egestas sit amet vel mauris. Proin ut imperdiet erat. Donec libero ipsum, convallis at libero quis, facilisis fringilla ex. Aliquam pharetra, justo sit amet posuere mollis, est justo vulputate purus, eget eleifend erat orci in ante. Integer malesuada tincidunt neque, in dictum eros viverra vel. Curabitur vitae leo ante. Proin eget nibh urna.
+</p>
+<footer> 
+    <a href="#">ITKP1011 Harjoitustyö</a><span class=copyright>© Merja Pyrhönen</span>
+</footer>
+</body>
+</html>
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <base href="../" />
+  <link href="tyyli.css" rel="StyleSheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ITKP1011 Web-julkaiseminen harjoitustyö</title>
+</head>
+<body>
+<nav class=navbartop>
+        <ul>
+            <li><a href="https://www.jyu.fi/">Jyväskylän yliopisto</a></li>
+            <li><a href="https://www.jyu.fi/it/">Informaatioteknologian tiedekunta</a></li>
+            <li><a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriohjelmat/tietotekniikka">Tietotekniikan
+                    oppiaine</a></li>
+            <li><a href="https://appro.mit.jyu.fi/itkp1011/">ITKP1011</a></li>
+	     <li class="kulmakuva"><img src="kuva.svg" alt="" title="3622"></li>
+        </ul>
+    </nav>
+ <!--#include virtual="../navbar.include"-->
+<h1>ITKP1011 Web-julkaiseminen harjoitustyö</h1>
+<p>Nunc vel mollis leo, vitae hendrerit magna. Maecenas scelerisque arcu in arcu porta, sit amet pharetra purus tempor. Donec consectetur auctor ipsum, quis facilisis mauris posuere sed. Aliquam ultrices diam at lorem tempor porttitor. Mauris a augue nec ligula pharetra aliquam. Maecenas ac tempus leo. Mauris sagittis, quam et faucibus varius, velit turpis egestas nunc, id consectetur odio leo vitae erat. Sed facilisis justo quis nisl mollis tincidunt. Phasellus at ante a nisl cursus elementum sit amet at mi. Curabitur eget ex fermentum, faucibus enim quis, dictum massa. Curabitur vitae euismod augue, eu ultrices nibh. Proin non lectus tristique, aliquam eros ac, posuere lacus.
+</p>
+<p>
+    Mauris porttitor sit amet diam sed facilisis. Mauris sollicitudin, tellus a eleifend lacinia, nisl mi aliquam magna, id feugiat sem velit id nisi. Curabitur porta rutrum arcu non aliquam. Nunc sit amet aliquam lorem. Ut et nibh ut sem feugiat sagittis. Curabitur sollicitudin nulla id felis gravida, ac ullamcorper diam mattis. Nullam sodales nunc eget tellus varius vestibulum. Curabitur a laoreet turpis. Quisque ultricies ex elit. Mauris egestas est id dignissim euismod. Etiam interdum, ligula ac tincidunt tincidunt, dolor nulla rhoncus nibh, quis euismod lacus quam eu urna. Vivamus lacinia quis odio nec pretium.   
+</p>
+<h2>Haku</h2>
+<form action="http://www.google.com/search" method="get">
+        <input type="hidden" name="q" value="site:http://appro.mit.jyu.fi/itkp1011/" />
+        <p><label for="hakusana">Etsi Googlella</label>
+        <input type="text" id="hakusana" name="q" value="" />
+        <input type="submit" value="Etsi" /></p>
+    </form>
+<h3>Ääni</h3>
+<audio controls="controls" src="musiikki.mp3"></audio>
+<p>
+    Aliquam efficitur a metus non volutpat. Donec nec tortor bibendum, tincidunt purus et, ultricies quam. Sed ullamcorper non elit ac iaculis. Integer mollis porttitor lacus et mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a eleifend odio, sed iaculis tellus. Nullam id libero ante. Nulla sed nisi dictum, commodo neque et, finibus nisl. Maecenas mattis metus ac sem placerat, id bibendum ex feugiat.
+</p>
+<p>Praesent consectetur odio euismod mauris dictum, vitae molestie arcu lobortis. In hac habitasse platea dictumst. Donec aliquam ex at viverra tristique. Quisque congue in ipsum ut ultricies. Aliquam vel pulvinar risus. Aenean nulla augue, faucibus a porta quis, pretium nec ipsum. Nunc ut tortor sit amet neque placerat hendrerit a ac urna. In hac habitasse platea dictumst. Morbi bibendum neque pretium mi tempus, sed eleifend velit gravida. Vestibulum id sem suscipit, lobortis justo non, dapibus arcu. In porttitor augue at arcu pellentesque tristique. Donec ut lorem eu augue laoreet mattis. Proin ut odio vitae turpis finibus interdum. Duis sodales sapien vitae leo ultrices egestas. Morbi non lacus dignissim, iaculis ex quis, dapibus sem.
+</p>
+<footer> 
+    <a href="#">ITKP1011 Harjoitustyö</a><span class=copyright>© Merja Pyrhönen</span>
+</footer>
+</body>
+
+

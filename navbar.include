@@ -1,0 +1,24 @@
+<nav class=navbar>
+            <ul>
+                <li><a href="blandit/">blandit</a>
+                <ul>
+                    <li><a href="blandit/porttitor/">porttitor</a></li>
+                    <li><a href="blandit/convallis/">convallis</a></li>
+                    <li><a href="blandit/libero/">libero</a></li>
+                </ul>
+            </li>
+                <li><a href="erat/">erat</a>
+                <ul>
+                    <li><a href="erat/diam/">diam</a></li>
+                    <li><a href="erat/proin/">proin</a></li>
+                </ul>
+            </li>
+                <li><a href="fusce/">fusce</a>
+                <ul>
+                    <li><a href="fusce/eu/">eu</a></li>
+                    <li><a href="fusce/in/">in</a></li>
+                </ul>
+            </li>
+            <li><a href="lorem/">lorem</a></li>
+            </ul>
+    </nav>

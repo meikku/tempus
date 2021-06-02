@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8" />
+    <base href="../../" />
+    <link href="tyyli.css" rel="StyleSheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ITKO1011-Harjoitustyö</title>
+</head>
+
+<body>
+    <nav class=navbartop>
+        <ul>
+            <li><a href="https://www.jyu.fi/">Jyväskylän yliopisto</a></li>
+            <li><a href="https://www.jyu.fi/it/">Informaatioteknologian tiedekunta</a></li>
+            <li><a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriohjelmat/tietotekniikka">Tietotekniikan
+                    oppiaine</a></li>
+            <li><a href="https://appro.mit.jyu.fi/itkp1011/">ITKP1011</a></li>
+	    <li class="kulmakuva"><img src="kuva.svg" alt="" title="3622"></li>
+        </ul>
+    </nav>
+    <!--#include virtual="../../navbar.include"-->
+    <h1>ITKP1011 Web-julkaiseminen harjoitustyö</h1>
+    <p>Donec vitae purus diam. Sed convallis, odio ac consectetur ultricies, ante libero
+        venenatis lacus, et imperdiet dolor quam vel est. Nullam sodales faucibus ligula viverra euismod. Etiam a erat
+        vitae ex tristique luctus. Sed ultrices erat in lectus pellentesque luctus.
+        Vivamus pharetra urna non quam pharetra, vel lobortis ligula maximus. Curabitur sollicitudin id lorem vel
+        aliquet. Donec mauris turpis, pharetra vel magna in, tincidunt ultricies mi. Sed
+        ullamcorper lobortis consectetur. Nulla facilisi. Aenean nibh nisi, consectetur sed nibh a, suscipit maximus
+        orci. Aenean eget lorem sit amet diam molestie placerat et eget lacus. Nulla id
+        consequat leo, at scelerisque diam. Etiam ligula diam, posuere id lacus at, malesuada convallis urna. </p>
+    <p>Morbi mauris enim, hendrerit eget urna sit amet, ornare blandit elit. In
+        bibendum diam magna, at fringilla purus bibendum dapibus. Proin cursus mauris eget turpis pretium lacinia. Nunc
+        rhoncus lorem orci. Proin finibus nulla a metus rutrum maximus et bibendum
+        urna. Aliquam in metus mi. In molestie, neque eget hendrerit posuere, lorem purus convallis magna, id viverra
+        justo justo nec ipsum. Aliquam erat volutpat. Curabitur finibus enim eget
+        felis aliquet ultricies. Sed ullamcorper, elit vitae pharetra euismod, mi massa viverra neque, in eleifend dolor
+        diam finibus odio. Quisque dictum sapien in ante pharetra, in imperdiet
+        sapien ultricies. Morbi sit amet semper dolor. Duis consequat interdum eros sit amet volutpat. Aenean auctor,
+        tortor sed imperdiet rutrum, metus nunc elementum nisi, congue hendrerit neque
+        nulla vitae augue. Curabitur sed leo nisi. Pellentesque nisl est, condimentum a tortor vitae, egestas rhoncus
+        nisl. </p>
+    <p> Etiam accumsan dui ac dolor rutrum volutpat. Morbi ac orci sit amet nunc malesuada accumsan. Aliquam magna
+        nulla, auctor in fermentum pellentesque, sagittis a arcu. Proin at justo dui.
+        Morbi maximus velit vitae hendrerit aliquet. Donec sed diam eget nunc gravida pulvinar in sit amet neque. Donec
+        non nibh purus. Sed varius mi metus, sed consequat diam eleifend vitae. Nunc
+        feugiat gravida diam vel interdum. Nulla at nunc erat. Proin dapibus felis odio, nec iaculis purus auctor ut.
+        Donec in faucibus justo. In ut ligula felis. Cras gravida sagittis mauris at
+        ultrices.
+    </p><iframe width="560" height="315" src="https://www.youtube.com/embed/Tuf61OjvoPQ"
+        allowfullscreen="allowfullscreen"></iframe>
+    <p><a href=https://youtu.be/Tuf61OjvoPQ>https://www.youtube.com/watch?v=Tuf61OjvoPQ </a> </p> <p>Sed mollis, tortor
+            vel finibus bibendum, dui enim tempor libero, et condimentum elit felis in erat.
+            Integer sed magna at risus dictum gravida. Aliquam porta interdum est, vitae imperdiet metus dignissim a.
+            Mauris commodo augue eget imperdiet condimentum. Etiam pharetra pulvinar nibh at
+            mollis. Curabitur non libero euismod, semper justo at, consequat libero. Praesent interdum pretium egestas.
+            Morbi id arcu nisl. Cras pharetra urna quis quam sagittis scelerisque. In cursus
+            libero ac diam faucibus pharetra. Sed sed elit eu lacus efficitur maximus. Orci varius natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. </p>
+    <p>Maecenas in
+        malesuada tortor. Proin facilisis ipsum facilisis, varius lorem sit amet, sagittis mi. Donec id purus urna. Duis
+        non dolor eget lacus volutpat finibus vel non mauris. Aliquam libero nisl,
+        efficitur at mauris vitae, mattis imperdiet elit. Duis scelerisque dolor ut feugiat molestie. Mauris eget justo
+        in turpis auctor commodo nec vitae neque. Nulla dolor velit, eleifend sed
+        accumsan ut, suscipit non turpis. Duis eu posuere turpis. Nulla facilisi. Pellentesque risus tellus, varius non
+        molestie in, sollicitudin ut est. Ut at vulputate ex, at vestibulum nisi.
+        Suspendisse dignissim finibus posuere. Cras vitae ornare odio, quis egestas nibh. Vivamus dui nulla, dapibus sed
+    </p>
+    <footer> 
+        <a href=".">ITKP1011 Harjoitustyö</a><span class=copyright>© Merja Pyrhönen</span>
+    </footer>
+</body>
+
+</html>

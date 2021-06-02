@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <base href="../../" />
+  <link href="tyyli.css" rel="StyleSheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ITKO1011-Harjoitustyö</title>
+</head>
+<body>
+<nav class=navbartop>
+        <ul>
+            <li><a href="https://www.jyu.fi/">Jyväskylän yliopisto</a></li>
+            <li><a href="https://www.jyu.fi/it/">Informaatioteknologian tiedekunta</a></li>
+            <li><a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriohjelmat/tietotekniikka">Tietotekniikan
+                    oppiaine</a></li>
+            <li><a href="https://appro.mit.jyu.fi/itkp1011/">ITKP1011</a></li>
+	     <li class="kulmakuva"><img src="kuva.svg" alt="" title="3622"></li>
+        </ul>
+    </nav>
+ <!--#include virtual="../../navbar.include"-->
+<h1>ITKP1011 Web-julkaiseminen harjoitustyö</h1>
+<p>Pellentesque egestas, nulla ac ullamcorper elementum, nisi risus porttitor mauris, quis dictum odio metus ut sapien. Etiam tortor nisi, pellentesque et tincidunt at, sagittis nec ante. Ut eu elit vitae nisi fermentum iaculis eget non urna. Aliquam accumsan laoreet dolor ut rhoncus. Aenean non tortor eu sem eleifend ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet eros ullamcorper, vulputate ex eget, congue erat. Morbi tincidunt risus sapien, quis suscipit dolor vehicula sit amet.
+</p>
+<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris a nisl varius orci tincidunt condimentum et in risus. Morbi a lacinia dui, auctor vehicula libero. Vivamus volutpat est at vestibulum faucibus. Vivamus ut semper nisi, id iaculis dui. Aliquam erat volutpat. Nam gravida urna in lorem gravida consequat. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+</p>
+<form action="http://appro.mit.jyu.fi/cgi-bin/view.cgi" method="post">
+<fieldset><legend>Henkilötiedot</legend>
+<label for="nimi">Nimi</label>
+<input name="nimi" id="nimi" type="text" required="required"/><br />
+<label for="osoite">Katuosoite</label>
+<input name="osoite" id="osoite" type="text" required="required"/><br />
+<label for="postinro">Postinumero</label>
+<input name="postinro" maxlength="5" size="5" id="postinro" type="text" required="required"/><br />
+<label for="postitoimipaikka">Postitoimipaikka</label>
+<input name="postitoimipaikka" id="postitoimipaikka" type="text" required="required"/><br />
+<label for ="spostiosoite">Sähköpostiosoite</label>
+<input id="spostiosoite" name="spostiosoite" type="email" required="required"/><br />
+<label>Sukupuoli</label>
+<label for="mies" class="sukupuoli" >Mies</label>
+<input id="mies" type="radio" name="sukupuoli" value="mies" required="required"/><br />
+<label for="nainen" class="sukupuoli">Nainen</label>
+<input id="nainen" type="radio" name="sukupuoli" value="nainen" required="required"/><br />
+<label for="enkerro" class="sukupuoli">En kerro</label>
+<input id="enkerro" type="radio" name="sukupuoli" value="enkerro" required="required" checked="checked"/><br />
+<label for="syntymaaika">Syntymäaika</label>
+<input id="syntymaaika" name="syntymaaika" type="date" min="1900-01-01" max="2017-01-01" required="required"/><br />
+<label for="kengannumero">Kengän numero</label>
+<input id="kengannumero" name="kengannumero" type="number" min="20" max="60" value="40" required="required"/><br />
+</fieldset>
+<fieldset><legend>Lisäpalvelut</legend>
+    <label for="aamiainen" class=”palvelut”>Aamiainen</label>
+<input id="aamiainen" type="checkbox" name="lisapalvelut" value="aamiainen" /><br />
+<label for="paivallinen" class=”palvelut”>Päivällinen</label>
+<input id="paivallinen" type="checkbox" name="lisapalvelut" value="paivallinen" /><br />
+<label for="valipala" class=”palvelut”>Välipala</label>
+<input id="valipala" type="checkbox" name="lisapalvelut" value="valipala" /><br />
+<label for="iltapala" class=”palvelut”>Iltapala</label>
+<input id="iltapala" type="checkbox" name="lisapalvelut" value="iltapala" /><br />
+<label for="yopala" class=”palvelut”>Yöpala</label>
+<input id="yopala" type="checkbox" name="lisapalvelut" value="yopala" /><br />
+</fieldset>
+<p><input type="submit" value="Lähetä" /></p>
+</form>
+<p>Pellentesque molestie, nibh ut laoreet tristique, ipsum nunc fringilla erat, a scelerisque neque orci nec nisl. Sed vehicula et lorem nec fermentum. Proin aliquet porttitor est et dapibus. In hac habitasse platea dictumst. Nulla ut consequat quam. Suspendisse egestas justo eros, vel bibendum ante porta quis. Nunc pulvinar enim et tristique vulputate. Nulla facilisi. Nullam bibendum mi nec nisl scelerisque, quis lacinia est vestibulum. Phasellus gravida tellus quam, in suscipit justo sodales in. Maecenas vel ultrices lectus. Maecenas vitae orci sed nulla lacinia aliquet at id justo. Nulla mollis ipsum diam. Donec ut sem quis nunc volutpat tincidunt. Sed in ligula est. Proin ullamcorper augue ut vestibulum rhoncus.
+</p>
+<p>Ut eu congue elit, id suscipit massa. Vivamus ultrices elementum metus mattis fringilla. Integer nec lectus nec ipsum ornare imperdiet. Nunc sem urna, porttitor id enim id, congue ultricies elit. Suspendisse potenti. Sed porta nibh a libero rutrum, quis malesuada nibh facilisis. Pellentesque tempor urna sed elementum ultricies. Donec quis nulla sit amet tellus efficitur vehicula a non leo. Cras ullamcorper diam lectus, sed semper orci sodales ut.</p>
+<footer> 
+    <a href=".">ITKP1011 Harjoitustyö</a><span class=copyright>© Merja Pyrhönen</span>
+</footer>
+</body>
+</html>
+
+
